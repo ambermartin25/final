@@ -1,0 +1,38 @@
+/* Set overall page background color and font */ body { background-color: #f2f2f2; font-family: Arial, sans-serif; margin: 0; padding: 0; } /* Center the main content area */ main { max-width: 960px; margin: 0 auto; } /* Style for sections */ section { padding: 20px; background-color: white; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); margin-bottom: 20px; /* Adds spacing between sections */ } 
+/* Style for the navigation menu */
+nav {
+    display: flex;
+    justify-content: center; /* Centers the navigation menu */
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for the unordered list */
+nav ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Makes the list items display horizontally */
+    justify-content: center; /* Centers the list items */
+}
+
+/* Style for the navigation list items */
+nav ul li {
+    margin: 0 15px; /* Adds space between list items */
+}
+
+/* Style for the navigation links */
+nav ul li a {
+    display: block;
+    text-decoration: none; /* Removes underline from links */
+    color: white; /* Sets text color to white */
+    background-color: #333; /* Background color for the links */
+    padding: 12px 20px; /* Padding inside the links */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    background-color: #555; /* Changes background color on hover */
+}
